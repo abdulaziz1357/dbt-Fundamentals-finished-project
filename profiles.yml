@@ -1,0 +1,11 @@
+default:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      role: ACCOUNTADMIN
+      warehouse: TRANSFORMING
+      database: RAW
+      schema: PUBLIC
+      account: ''
+      user: ''
